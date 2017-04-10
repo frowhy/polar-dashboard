@@ -46,7 +46,7 @@ public class HomeFragment extends BasePageFragment {
   @OnClick(R.id.fab)
   public void onTapReview() {
     startActivity(new Intent(Intent.ACTION_VIEW)
-        .setData(Uri.parse(String.format("https://play.google.com/store/apps/details?id=%s",
+        .setData(Uri.parse(String.format("http://coolapk.com/apk/%s",
             BuildConfig.APPLICATION_ID))));
   }
 

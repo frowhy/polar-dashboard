@@ -9,21 +9,21 @@
     <!-- True enables the homepage -->
     <bool name="homepage_enabled">true</bool>
     <string name="homepage_description">
-        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin sit amet pretium ex. Aenean eu semper ligula. Disable the homepage from /res/values/dev_options.xml.
+        锤子图标
     </string>
     <!-- The large icon displayed in the home page -->
     <drawable name="homepage_landing_icon">@drawable/ic_web</drawable>
 
     <!-- URL to JSON file containing a map of wallpapers, leave empty to disable wallpapers. -->
     <string name="wallpapers_json_url" formatted="false">
-        https://raw.githubusercontent.com/afollestad/polar_json/master/wallpapers.json
+        http://frowhy.com/wallpapers.json
     </string>
 
     <!-- When false, the Save button for wallpapers is hidden. -->
     <bool name="wallpapers_allow_download">true</bool>
 
     <!-- Email used to send icon requests, leave empty to disable this feature. -->
-    <string name="icon_request_email">fake-email@fake-website.com</string>
+    <string name="icon_request_email">frowhy@gmail.com</string>
 
     <!-- Max number of icons that can be sent per request. -1 disables max count. The interval must ALSO be set below. -->
     <integer name="icon_request_maxcount">-1</integer>
@@ -45,7 +45,7 @@
     <bool name="persist_selected_page">true</bool>
 
     <!-- Email used to send feedback, leave empty to disable this feature. -->
-    <string name="feedback_email">fake-email@fake-website.com</string>
+    <string name="feedback_email">frowhy@gmail.com</string>
 
     <!-- %1$s gets replaced with the name of your icon pack -->
     <string name="feedback_subject_line">%1$s Feedback</string>

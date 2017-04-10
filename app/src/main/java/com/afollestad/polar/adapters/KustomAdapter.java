@@ -30,7 +30,7 @@ import java.util.Locale;
  */
 public class KustomAdapter extends RecyclerView.Adapter<KustomAdapter.KustomVH> {
 
-  private final static String GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=%s";
+  private final static String GOOGLE_PLAY_URL = "http://coolapk.com/apk/%s";
 
   public final static int SEARCH_RESULT_LIMIT = 10;
 

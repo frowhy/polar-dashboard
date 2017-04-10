@@ -27,7 +27,7 @@ import java.util.Locale;
  */
 public class ZooperAdapter extends RecyclerView.Adapter<ZooperAdapter.ZooperVH> {
 
-  private final static String GOOGLE_PLAY_URL = "https://play.google.com/store/apps/details?id=%s";
+  private final static String GOOGLE_PLAY_URL = "http://coolapk.com/apk/%s";
   private final static String ZOOPER_PRO_PKG = "org.zooper.zwpro";
   public final static int SEARCH_RESULT_LIMIT = 10;
 

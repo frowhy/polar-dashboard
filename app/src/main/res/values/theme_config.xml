@@ -2,12 +2,12 @@
 <resources xmlns:tools="http://schemas.android.com/tools" tools:ignore="UnusedResources">
 
     <string name="theme_feature">ic_launcher</string>
-    <string name="theme_title">Polar Dashboard Pack</string>
-    <string name="authorName">Not filled in</string>
-    <string name="developerName">Not filled in</string>
-    <string name="developer_name">Not filled in</string>
-    <string name="developer_link">http://afollestad.github.io/polar-dashboard/</string>
-    <string name="theme_description">Not filled in</string>
+    <string name="theme_title">Smartisan Pack</string>
+    <string name="authorName">Smartisan</string>
+    <string name="developerName">frowhy</string>
+    <string name="developer_name">frowhy</string>
+    <string name="developer_link">http://frowhy.com</string>
+    <string name="theme_description">锤子图标</string>
     <string name="theme_preview1">preview1</string>
 
 </resources>

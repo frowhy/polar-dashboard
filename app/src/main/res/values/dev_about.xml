@@ -4,7 +4,7 @@
     <!-- DO NOT REMOVE THE BOTTOM 5 ITEMS OF EACH ARRAY, OTHERWISE TERMS ARE VIOLATED. -->
 
     <string-array name="about_images" formatted="false" tools:ignore="TypographyDashes">
-        <item>https://lh3.googleusercontent.com/-0mdcClKXlgM/AAAAAAAAAAI/AAAAAAAAAAA/xgdLWeAg7pM/s120-c/photo.jpg</item>
+        <item>http://s.gravatar.com/avatar/fa7c0a47b4b4553d7ba834f5bbb5510f?s=80</item>
         <item>https://lh3.googleusercontent.com/-mMe9cCCcm3Q/AAAAAAAAAAI/AAAAAAAAh2g/900TLdhn7dA/s120-c/photo.jpg</item>
         <item>https://lh3.googleusercontent.com/-l5Si1i98XyE/AAAAAAAAAAI/AAAAAAAAzl0/laAgWI12gd4/s120-c/photo.jpg</item>
         <item>https://lh3.googleusercontent.com/-uRfg9FW83s4/AAAAAAAAAAI/AAAAAAAAKts/0FaBag1wvds/s120-c/photo.jpg</item>
@@ -22,7 +22,7 @@
     </string-array>
 
     <string-array name="about_titles">
-        <item>You</item>
+        <item>frowhy</item>
         <item>Aidan Follestad</item>
         <item>Tom Wellington</item>
         <item>Daniel Ciao</item>
@@ -31,7 +31,7 @@
     </string-array>
 
     <string-array name="about_descriptions">
-        <item formatted="false"><![CDATA[This is definitely a placeholder<br><i>This is where your contribution would go</i>]]></item>
+        <item formatted="false"></item>
         <item formatted="false"><![CDATA[I like rock/metal, programming, &amp; cars<br/><i>I made the dashboard happen &amp; helped design it</i>]]></item>
         <item formatted="false"><![CDATA[I like rap, coffee, &amp; UI design<br/><i>I designed the dashboard</i>]]></item>
         <item formatted="false"><![CDATA[I like playing piano, doing puzzles, &amp; making apps<br/><i>I primarily helped with animations and UI</i>]]></item>
@@ -40,7 +40,7 @@
     </string-array>
 
     <string-array name="about_buttons_names">
-        <item>Website|Google+</item>
+        <item>Website|Github</item>
         <item>Website|Google+|LinkedIn</item>
         <item>Dribbble|Google+</item>
         <item>Website|Google+|GitHub</item>
@@ -49,7 +49,7 @@
     </string-array>
 
     <string-array name="about_buttons_links">
-        <item>http://aidanfollestad.com|https://google.com/+AidanFollestad</item>
+        <item>http://frowhy.com|https://github.com/frowhy</item>
         <item>http://aidanfollestad.com|https://google.com/+AidanFollestad|https://www.linkedin.com/in/afollestad</item>
         <item>https://dribbble.com/tomwellington|https://google.com/+TomWellington24</item>
         <item>http://www.pluscubed.com|https://plus.google.com/+DanielCiao|https://github.com/plusCubed</item>

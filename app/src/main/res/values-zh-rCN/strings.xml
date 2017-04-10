@@ -1,0 +1,120 @@
+<resources>
+
+    <!-- App Strings -->
+    <string name="app_name">锤子图标</string>
+    <string name="app_name_wallpaper">锤子壁纸</string>
+
+    <string name="wallpapers">壁纸</string>
+    <string name="icons">图标</string>
+    <string name="wallpaper">壁纸</string>
+    <string name="saved_to_x">保存到 %1$s！</string>
+    <string name="wallpaper_set">壁纸设置！</string>
+    <string name="apply">应用</string>
+    <string name="save_to_device">保存到设备</string>
+
+    <string name="finish_apply">选择您的选项，然后按应用来完成！</string>
+    <string name="finish_holo_apply">转到外观设置 -> 图标包，并从列表中选择这个图标包。</string>
+    <string name="finish_go_apply">进入应用的主题！</string>
+    <string name="dismiss">我知道了</string>
+    <string name="muzei_description">锤子壁纸。</string>
+    <string name="changelog">更新日志</string>
+    <string name="error">错误</string>
+    <string name="search_icons">搜索图标…</string>
+    <string name="search">请搜索您所感兴趣的产品</string>
+    <string name="no_results">无结果</string>
+    <string name="about">关于</string>
+    <string name="request_icons">请求图标</string>
+    <string name="request_icons_x">请求图标（%1$d）</string>
+    <string name="loading_filter">加载过滤器…</string>
+    <string name="loading">加载中…</string>
+    <string name="no_apps">没有应用</string>
+    <string name="tap_to_select_app">点击应用来选择他们！</string>
+    <string name="tap_to_select_app_withremaining">点击应用来选择他们！（%1$d 剩余的）</string>
+    <string name="request_limited">等待 %1$d 请求更多</string>
+    <string name="icon_request">图标请求</string>
+    <string name="preparing_icon_request">准备图标的请求......</string>
+    <string name="write_storage_permission_denied">读写外部存储的权限被拒绝！</string>
+    <string name="no_wallpapers">没有壁纸</string>
+    <string name="search_wallpapers">搜索壁纸…</string>
+    <string name="reload_from_web">从网页刷新</string>
+    <string name="downloading_wallpaper">下载壁纸…</string>
+    <string name="not_installed">未安装</string>
+    <string name="not_installed_prompt"><b>%1$s 启动器</b> 没有安装 您想在Play商店中查看吗？</string>
+    <string name="more">更多</string>
+    <string name="more_x">更多（%1$d）</string>
+    <string name="select_all">全选</string>
+    <string name="cool">酷！</string>
+    <string name="dark_theme">暗色的主题</string>
+    <string name="invalid_drawable_error"><![CDATA[无效可绘制的<b>%1$s</b>中，开发者需要在<b>/res/xml/drawable.xml</b> 和 <b>/assets/drawable.xml </b>修复。]]></string>
+    <string name="set_wallpaper_using">设置壁纸使用…</string>
+    <string name="quick_apply">快速应用</string>
+    <string name="quick_apply_desc">点击应用到您的默认启动</string>
+
+    <string name="invalid_license">无效的许可证</string>
+    <string name="invalid_license_description"><![CDATA[请从谷歌Play商店下载 <b>%1$s</b>！:)]]></string>
+    <string name="invalid_license_description_retry">我们无法验证您的许可，您想重试吗？如果不是，应用程序将关闭。</string>
+    <string name="retry">重试</string>
+    <string name="checking_license">检查您的许可证…</string>
+
+    <string name="transition_name_recyclerview_item">recyclerViewItem_</string>
+    <string name="drawer_open">打开导航抽屉</string>
+    <string name="drawer_close">关闭导航抽屉</string>
+    <string name="license_valid">您的许可进行了验证，谢谢！</string>
+    <string name="request_cancelled">请求被取消</string>
+    <string name="home">首页</string>
+    <string name="nav_drawer_mode">导航抽屉模式</string>
+    <string name="zooper">Zooper</string>
+    <string name="klwp">KLWP</string>
+    <string name="kwgt">KWGT</string>
+    <string name="permission_needed">所需的权限</string>
+    <string name="permission_needed_zooper_desc"><![CDATA[ <b>%1$s</b> 需要访问权限，为了节省Zooper资产手机的存储！]]></string>
+    <string name="download_cancelled">下载已取消！</string>
+    <string name="cmte_unavailable">CyanogenMod主题引擎在此设备无法使用。</string>
+    <string name="lghome_unavailable">LG Home 在此设备无法使用。</string>
+    <string name="feedback">@string/donate</string>
+    <string name="donate">捐款</string>
+    <string name="thank_you_donation">感谢您的慷慨！</string>
+    <string name="donation_error">捐赠过程中出现错误：%1$s</string>
+    <string name="email_using">电子邮件使用…</string>
+    <string name="unable_to_contact_server">无法连接服务器！请检查您的网络连接。</string>
+    <string name="search_widgets">搜索小工具…</string>
+    <string name="made_for_zooper">这些构件的Zooper Pro中</string>
+    <string name="zooper_already_installed">Zooper 已经安装！</string>
+    <string name="made_for_klwp">这些壁纸是对的Kustom壁纸PRO作出（KLWP）</string>
+    <string name="made_for_kwgt">这些小部件的Kustom的Widget PRO是由（KWGT）</string>
+    <string name="kustom_already_installed">Kustom已经安装！</string>
+    <string name="assets_installed">安装成功的资产！</string>
+    <string name="please_wait">请稍候.....！</string>
+    <string name="installing_fonts">安装字体…</string>
+    <string name="installing_iconsets">安装图标集…</string>
+    <string name="installing_bitmaps">安装位图…</string>
+    <string name="x_version_x">%1$s版本：%2$s（ %3$d ）</string>
+    <string name="select_icon">选择一个图标…</string>
+    <string name="default_category">默认分类</string>
+    <string name="go_launcher">GO桌面</string>
+    <string name="go_launcher_notice"><![CDATA[如果一旦你点击OK图标不适用：请打开<b>开始设置</b>，按<b>图标</b>，然后选择该图标包。如果你看到unthemed图标面色扭曲，请禁用<b>显示图标基地</b>在同一菜单中。]]></string>
+    <string name="request_uploaded">您的申请已经上传到我们的服务器，谢谢！</string>
+
+    <string-array name="wallpaper_options">
+        <item>@string/apply</item>
+        <item>@string/save_to_device</item>
+    </string-array>
+    <string name="kustom_pack_description">令人敬畏的 Kustom 由 Polar 提供</string>
+    <string name="theme_description">未填写</string>
+    <string name="theme_feature">ic_launcher</string>
+    <string name="theme_preview1">preview1</string>
+    <string name="theme_title">锤子图标吧</string>
+    <string name="transition_name_circular_reveal">圆形显示</string>
+    <string name="wallpapers_json_url">http://frowhy.com/wallpapers.json</string>
+    <string name="zooper_pack_author">Polar</string>
+    <string name="zooper_pack_desc">你的主屏幕，由锤子图标提供美丽的 Zooper 小部件。</string>
+    <string name="zooper_pack_name">@string/app_name</string>
+    <string name="developer_name">frowhy</string>
+    <string name="developer_link">http://frowhy.com</string>
+    <string name="developerName">frowhy</string>
+    <string name="authorName">smartisan</string>
+    <string name="feedback_email">frowhy@gmail.com</string>
+    <string name="feedback_subject_line">%1$s Feedback</string>
+    <string name="icon_request_email">frowhy@gmail.com</string>
+
+</resources>

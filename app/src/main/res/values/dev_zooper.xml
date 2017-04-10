@@ -4,7 +4,7 @@
     <!-- This info is used in the available skins list in Zooper -->
     <string name="zooper_pack_name">@string/app_name</string>
     <string name="zooper_pack_desc">Beautiful Zooper widgets for your home screen, powered by Polar.</string>
-    <string name="zooper_pack_author">Unnamed</string>
+    <string name="zooper_pack_author">Polar</string>
 
     <!-- If set to 0, the user will not be allowed to save this template in Zooper -->
     <integer name="zooper_pack_allowsave">0</integer>

@@ -73,7 +73,7 @@
     <string name="download_cancelled">Download cancelled!</string>
     <string name="cmte_unavailable">CyanogenMod Theme Engine is not available to this device.</string>
     <string name="lghome_unavailable">LG Home is not available to this device.</string>
-    <string name="feedback">Feedback</string>
+    <string name="feedback">@string/donate</string>
     <string name="donate">Donate</string>
     <string name="thank_you_donation">Thank you for your generosity!</string>
     <string name="donation_error">An error occurred during donation: %1$s</string>

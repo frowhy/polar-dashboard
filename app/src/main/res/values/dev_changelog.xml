@@ -4,8 +4,8 @@
     <bool name="changelog_enabled">true</bool>
 
     <string-array name="changelog" translatable="false">
-        <item><![CDATA[ <b>Hello, world!</b> ]]></item>
-        <item><![CDATA[ Your changelog can go in here, you can use <i>HTML formatting</i>.. ]]></item>
+        <item><![CDATA[ <b>诈尸了!</b> ]]></item>
+        <item><![CDATA[ 目前覆盖图标 934 个 ]]></item>
     </string-array>
 
 </resources>

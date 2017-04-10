@@ -1,5 +1,6 @@
 package com.afollestad.polar.fragments;
 
+import android.content.ComponentName;
 import android.content.Intent;
 import android.net.Uri;
 import android.os.Bundle;
@@ -10,6 +11,8 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.Toast;
 import butterknife.ButterKnife;
+import moe.feng.alipay.zerosdk.AlipayZeroSdk;
+
 import com.afollestad.materialdialogs.MaterialDialog;
 import com.afollestad.polar.R;
 import com.afollestad.polar.adapters.AboutAdapter;
@@ -45,25 +48,8 @@ public class AboutFragment extends BasePageFragment implements AboutAdapter.Opti
 
   @Override
   public void onOptionFeedback() {
-    final Uri contactUri;
-    try {
-      final String email = URLEncoder.encode(Config.get().feedbackEmail(), "UTF-8");
-      //noinspection ConstantConditions
-      final String subject = URLEncoder.encode(Config.get().feedbackSubjectLine(), "UTF-8");
-      contactUri = Uri.parse(String.format("mailto:%s?subject=%s", email, subject));
-    } catch (UnsupportedEncodingException e) {
-      Toast.makeText(getActivity(), e.getMessage(), Toast.LENGTH_SHORT).show();
-      return;
-    }
-    try {
-      Intent intent = new Intent(Intent.ACTION_SENDTO, contactUri);
-      startActivity(Intent.createChooser(intent, getString(R.string.email_using)));
-    } catch (Exception e) {
-      try {
-        startActivity(new Intent(Intent.ACTION_VIEW, contactUri));
-      } catch (Exception e2) {
-        Toast.makeText(getActivity(), e2.getLocalizedMessage(), Toast.LENGTH_SHORT).show();
-      }
+    if(AlipayZeroSdk.hasInstalledAlipayClient(getActivity())){
+      AlipayZeroSdk.startAlipayClient(getActivity(), "aex06053lqq7gh8aftzhc4e");
     }
   }
 

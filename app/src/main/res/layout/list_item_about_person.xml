@@ -42,7 +42,7 @@
                     app:riv_border_color="#fff"
                     app:riv_border_width="4dp"
                     app:riv_oval="true"
-                    app:srcCompat="@drawable/ic_launcher_action"
+                    app:srcCompat="@drawable/ic_action"
                     tools:ignore="ContentDescription" />
 
                 <TextView

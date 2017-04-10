@@ -32,7 +32,8 @@ public class DrawableXmlParser {
     private final String mDrawable;
     private final Category mCategory;
 
-    Icon(String drawable, Category category) {
+    Icon(String title, String drawable, Category category) {
+      mName = title;
       mDrawable = drawable;
       mCategory = category;
       getName(); // generate name
@@ -165,7 +166,7 @@ public class DrawableXmlParser {
                 mCategories.add(mCurrentCategory);
               }
               mCurrentCategory
-                  .addItem(new Icon(parser.getAttributeValue(null, "drawable"), mCurrentCategory));
+                  .addItem(new Icon(parser.getAttributeValue(null, "title"), parser.getAttributeValue(null, "drawable"), mCurrentCategory));
             }
             break;
         }
