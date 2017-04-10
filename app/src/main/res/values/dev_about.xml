@@ -40,7 +40,7 @@
     </string-array>
 
     <string-array name="about_buttons_names">
-        <item>Website|Github</item>
+        <item>Website|Github|Weibo</item>
         <item>Website|Google+|LinkedIn</item>
         <item>Dribbble|Google+</item>
         <item>Website|Google+|GitHub</item>
@@ -49,7 +49,7 @@
     </string-array>
 
     <string-array name="about_buttons_links">
-        <item>http://frowhy.com|https://github.com/frowhy</item>
+        <item>http://frowhy.com|https://github.com/frowhy|http://weibo.com/frowhy</item>
         <item>http://aidanfollestad.com|https://google.com/+AidanFollestad|https://www.linkedin.com/in/afollestad</item>
         <item>https://dribbble.com/tomwellington|https://google.com/+TomWellington24</item>
         <item>http://www.pluscubed.com|https://plus.google.com/+DanielCiao|https://github.com/plusCubed</item>
