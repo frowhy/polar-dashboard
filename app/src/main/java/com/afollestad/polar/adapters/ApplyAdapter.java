@@ -20,6 +20,8 @@ import com.afollestad.materialdialogs.util.DialogUtils;
 import com.afollestad.polar.R;
 import com.afollestad.polar.util.ApplyUtil;
 import com.afollestad.polar.util.TintUtils;
+import com.bumptech.glide.Glide;
+
 import java.util.Arrays;
 import java.util.Comparator;
 
@@ -177,7 +179,7 @@ public class ApplyAdapter extends RecyclerView.Adapter<ApplyAdapter.ApplyVH> {
     holder.title.setText(launcher.title);
     holder.icon.setBackgroundColor(launcher.color);
     holder.title.setBackgroundColor(launcher.colorDark);
-    holder.icon.setImageResource(launcher.icon);
+    Glide.with(mContext).load(launcher.icon).into(holder.icon);
     holder.card.setCardBackgroundColor(launcher.color);
   }
 

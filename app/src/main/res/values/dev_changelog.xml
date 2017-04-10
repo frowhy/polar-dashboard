@@ -3,7 +3,7 @@
 
     <bool name="changelog_enabled">true</bool>
 
-    <string-array name="changelog" translatable="false">
+    <string-array name="changelog">
         <item><![CDATA[ <b>诈尸了!</b> ]]></item>
         <item><![CDATA[ 目前覆盖图标 934 个 ]]></item>
     </string-array>

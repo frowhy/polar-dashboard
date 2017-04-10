@@ -37,8 +37,8 @@ android {
         applicationId "com.frowhy.smartisan"
         minSdkVersion 19
         targetSdkVersion TARGET_SDK
-        versionCode 400
-        versionName "4.0.0"
+        versionCode 401
+        versionName "4.0.1"
 
         vectorDrawables.useSupportLibrary = true
     }
@@ -50,7 +50,7 @@ android {
         release {
 //            signingConfig signingConfigs.production
             // Disable Proguard so our drawable-nodpi resources aren't removed
-            minifyEnabled true
+            minifyEnabled false
             shrinkResources false
             proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
         }

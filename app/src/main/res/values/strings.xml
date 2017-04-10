@@ -17,7 +17,7 @@
     <string name="finish_go_apply">Go theme applied!</string>
     <string name="dismiss">Dismiss</string>
     <string name="muzei_description">Polar wallpapers.</string>
-    <string name="changelog" translatable="false">Changelog</string>
+    <string name="changelog">Changelog</string>
     <string name="error">Error</string>
     <string name="search_icons">Search icons…</string>
     <string name="search">Search</string>
@@ -50,7 +50,7 @@
     <string name="quick_apply">Quick Apply</string>
     <string name="quick_apply_desc">Tap to apply to your default launcher</string>
 
-    <string name="transition_name_circular_reveal" translatable="false">circularReveal</string>
+    <string name="transition_name_circular_reveal">circularReveal</string>
 
     <string name="invalid_license">Invalid License</string>
     <string name="invalid_license_description"><![CDATA[Please download <b>%1$s</b> from the Google Play Store! :)]]></string>
@@ -58,7 +58,7 @@
     <string name="retry">Retry</string>
     <string name="checking_license">Checking your license…</string>
 
-    <string name="transition_name_recyclerview_item" translatable="false">recyclerViewItem_</string>
+    <string name="transition_name_recyclerview_item">recyclerViewItem_</string>
     <string name="drawer_open">Open nav drawer</string>
     <string name="drawer_close">Close nav drawer</string>
     <string name="license_valid">Your license was verified, thank you!</string>
@@ -97,7 +97,7 @@
     <string name="go_launcher_notice"><![CDATA[ If the icons do not apply once you click OK: please open <b>GO Settings</b>, press <b>Icon</b>, and select this icon pack. If you see unthemed icons looking distorted, please disable <b>Show Icon Base</b> in the same menu.]]></string>
     <string name="request_uploaded">Your request has been uploaded to our server, thanks!</string>
 
-    <string-array name="wallpaper_options" translatable="false">
+    <string-array name="wallpaper_options">
         <item>@string/apply</item>
         <item>@string/save_to_device</item>
     </string-array>
